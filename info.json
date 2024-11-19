@@ -1,0 +1,21 @@
+{
+    "name": "intrets-lib",
+    "title": "intrets-lib",
+    "description": "A bunch of things",
+
+    "version": "0.0.1",
+    "author": "Intrets",
+    "factorio_version": "2.0",
+
+    "quality_required": false,
+    "rail_bridges_required": false,
+    "space_travel_required": false,
+    "spoiling_required": false,
+    "freezing_required": false,
+    "segmented_units_required": false,
+    "expansion_shaders_required": false,
+
+    "dependencies": [
+        "base"
+    ]
+}
