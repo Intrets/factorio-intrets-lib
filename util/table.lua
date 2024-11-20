@@ -31,12 +31,12 @@ local function table_get_or_init(table, key, value)
     end
 end
 
-local function table_get_or_init_table(table, key)
-    local result = table[key]
+local function table_get_or_init_table(t, key)
+    local result = t[key]
 
     if result == nil then
         result = {}
-        table[key] = result 
+        t[key] = result 
     end
 
     return result
